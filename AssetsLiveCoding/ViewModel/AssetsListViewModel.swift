@@ -12,6 +12,8 @@ final class AssetsListViewModel: ObservableObject {
     }
 
     /// 1. Fetch assets from API
-    /// 2. Fetch assets by a giving term, adding some debounce for the text input
-    /// 3. Add/Remove from favorites
+    /// 2. Add search bar to fetch assets by a giving term 
+    /// 3. Add some debounce to the search bar input (300ms is ok)
+    /// 4. Format price USD
+    /// 5. Format 24h percentage change
 }
